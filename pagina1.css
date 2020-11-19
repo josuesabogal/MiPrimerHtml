@@ -1,0 +1,58 @@
+body {
+    background-color: black; /* color de fondo */
+    color: whitesmoke;
+    padding: 60px;
+}
+.titulo_principal {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(22, 209, 22);
+  font-size: 3rem;
+  border-bottom: 4px solid rgb(6, 119, 128);
+  width: fit-content;
+  margin: auto;
+}
+p {
+  font-size: 1.3rem;
+  color: rgb(182, 182, 182);
+}
+.primer_parrafo {
+  margin: 50px auto 20px auto;
+  width: fit-content;
+}
+.primer_parrafo span {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: red;
+}
+.datos_personales {
+  border: thick double #939494;
+  width: fit-content;
+  padding: 5px 10px; 
+}
+.datos_personales span {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(18, 231, 213);
+
+}
+h2 {
+  color: rgb(13, 230, 219);
+}
+h1 {
+  font-family: 'Ruluko', sans-serif;
+}
+.enlace_bonito {
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: rgb(181, 185, 185);
+  border-bottom: 2px solid whitesmoke;
+  border-left: 2px solid whitesmoke;
+  margin: auto;
+}
+.enlace_bonito:hover {
+  background-color: white;
+  color: rgb(34, 200, 230); 
+}
+.enlace_img {
+  margin: auto;
+}
