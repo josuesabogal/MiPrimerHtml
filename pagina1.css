@@ -1,58 +1,109 @@
 body {
-    background-color: black; /* color de fondo */
-    color: whitesmoke;
-    padding: 60px;
+  background-color: whitesmoke; /* color de fondo */
+  color: black;
+  padding: 60px;
 }
 .titulo_principal {
-  font-family: 'Josefin Sans', sans-serif;
-  color: rgb(22, 209, 22);
-  font-size: 3rem;
-  border-bottom: 4px solid rgb(6, 119, 128);
-  width: fit-content;
-  margin: auto;
+font-family: 'Josefin Sans', sans-serif;
+color: rgb(22, 209, 22);
+font-size: 3rem;
+border-bottom: 4px solid rgb(6, 119, 128);
+width: fit-content;
+margin: auto;
 }
 p {
-  font-size: 1.3rem;
-  color: rgb(182, 182, 182);
+font-size: 1.3rem;
+color: rgb(0, 0, 0);
+text-align: justify;
 }
 .primer_parrafo {
-  margin: 50px auto 20px auto;
-  width: fit-content;
+margin: 50px auto 20px auto;
+width: fit-content;
 }
 .primer_parrafo span {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: red;
+font-size: 1.5rem;
+font-weight: 900;
+color: red;
 }
 .datos_personales {
-  border: thick double #939494;
-  width: fit-content;
-  padding: 5px 10px; 
+border: thick double #939494;
+width: fit-content;
+padding: 5px 10px; 
 }
 .datos_personales span {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: rgb(18, 231, 213);
+font-size: 1.5rem;
+font-weight: 900;
+color: rgb(18, 231, 213);
 
 }
 h2 {
-  color: rgb(13, 230, 219);
+color: rgb(13, 230, 219);
 }
 h1 {
-  font-family: 'Ruluko', sans-serif;
+font-family: 'Ruluko', sans-serif;
+}
+.nav {
+width: fit-content;
+margin: auto;
 }
 .enlace_bonito {
-  padding: 8px 12px;
-  text-decoration: none;
-  background-color: rgb(181, 185, 185);
-  border-bottom: 2px solid whitesmoke;
-  border-left: 2px solid whitesmoke;
-  margin: auto;
+padding: 8px 12px;
+text-decoration: none;
+background-color: rgb(181, 185, 185);
+border-bottom: 2px solid whitesmoke;
+border-left: 2px solid whitesmoke;
+margin: 2px 2px;
 }
 .enlace_bonito:hover {
-  background-color: white;
-  color: rgb(34, 200, 230); 
+background-color: white;
+color: rgb(34, 200, 230); 
 }
 .enlace_img {
-  margin: auto;
+margin: auto;
+}
+.content_box {
+width: 800px;
+height: fit-content;
+padding: 0.5rem 2rem;
+margin:  4rem auto;
+background-image: radial-gradient(circle, rgba(23, 146, 23, 1), rgba(23, 146, 23, 0.12)), url('backgroundImage.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+table {
+border-collapse: collapse;
+font-size: 1.3rem;
+}
+
+#datos_personales{
+margin-left: 0px;
+}
+
+#cursos_realizados {
+margin: 2rem auto;
+}
+table td, table th{
+margin: 0px;
+border: 1px solid  rgb(65, 126, 65);
+padding: 10px 20px;
+width: fit-content;
+}
+
+#cursos_realizados td, #cursos_realizados th {
+width: 100px;
+text-align: left;
+}
+
+table th {
+color: antiquewhite;
+background-color: rgb(65, 126, 65);
+}
+
+table td {
+text-align: center;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
 }
