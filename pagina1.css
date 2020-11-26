@@ -3,6 +3,19 @@ body {
   color: black;
   padding: 60px;
 }
+.nav {
+  padding-bottom: 50px;
+  
+}
+.nav li {
+  display: inline-block;
+}
+.nav li a {
+  padding: 10px 20px;
+  display: block;
+  background-color: rgb(14, 13, 13); 
+}
+
 .titulo_principal {
 font-family: 'Josefin Sans', sans-serif;
 color: rgb(22, 209, 22);
@@ -57,6 +70,18 @@ margin: 2px 2px;
 .enlace_bonito:hover {
 background-color: white;
 color: rgb(34, 200, 230); 
+}
+.figura {
+  height: 200px;
+  width: 200px;
+}
+.una_linea {
+  background-color: black;
+  display: inline-block;
+}
+.datos_izq {
+  margin-left: 200px;
+  background-color: whitesmoke;
 }
 .enlace_img {
 margin: auto;
