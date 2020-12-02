@@ -1,11 +1,21 @@
 body {
-  background-color: whitesmoke; /* color de fondo */
-  color: black;
-  padding: 60px;
+  padding: 0px;
+  margin: 0px;
 }
+.contenido_body {
+  padding: 60px;
+  color: black;
+  background-color: whitesmoke; /* color de fondo */
+}
+
 .nav {
-  padding-bottom: 50px;
-  
+  position: fixed;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  top: 0px;
+  background-color: black;
+  /* height: 50px; */
 }
 .nav li {
   display: inline-block;
@@ -13,7 +23,13 @@ body {
 .nav li a {
   padding: 10px 20px;
   display: block;
-  background-color: rgb(14, 13, 13); 
+  text-decoration: none;
+  color: whitesmoke;
+}
+.nav li a:hover {
+  background-color: white;
+  color: green;
+  font-weight: 900;
 }
 
 .titulo_principal {
@@ -55,33 +71,16 @@ color: rgb(13, 230, 219);
 h1 {
 font-family: 'Ruluko', sans-serif;
 }
-.nav {
-width: fit-content;
-margin: auto;
-}
-.enlace_bonito {
-padding: 8px 12px;
-text-decoration: none;
-background-color: rgb(181, 185, 185);
-border-bottom: 2px solid whitesmoke;
-border-left: 2px solid whitesmoke;
-margin: 2px 2px;
-}
-.enlace_bonito:hover {
-background-color: white;
-color: rgb(34, 200, 230); 
-}
-.figura {
+.foto_perfil {
   height: 200px;
   width: 200px;
+  border-radius: 100px;
 }
 .una_linea {
-  background-color: black;
   display: inline-block;
 }
 .datos_izq {
   margin-left: 200px;
-  background-color: whitesmoke;
 }
 .enlace_img {
 margin: auto;
@@ -94,6 +93,7 @@ margin:  4rem auto;
 background-image: radial-gradient(circle, rgba(23, 146, 23, 1), rgba(23, 146, 23, 0.12)), url('backgroundImage.jpg');
 background-size: 100% 100%;
 background-attachment: fixed;
+
 }
 
 table {
@@ -131,4 +131,9 @@ text-align: center;
 
 tr:nth-child(even) {
 background-color: #dddddd;
+}
+
+.redes_sociales {
+  margin: auto;
+  width: fit-content;
 }
